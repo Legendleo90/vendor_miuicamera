@@ -9,7 +9,7 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/miuicamera/proprietary/vendor/etc,$(TARGET_COPY_OUT_VENDOR)/etc) \
     $(call find-copy-subdir-files,*,vendor/miuicamera/proprietary/vendor/lib,$(TARGET_COPY_OUT_VENDOR)/lib) \
     $(call find-copy-subdir-files,*,vendor/miuicamera/proprietary/vendor/lib64,$(TARGET_COPY_OUT_VENDOR)/lib64) \
-    $(call find-copy-subdir-files,*,vendor/miuicamera/proprietary/vendor/camera,$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/camera)
+    $(call find-copy-subdir-files,*,vendor/miuicamera/proprietary/vendor/camera,$(TARGET_COPY_OUT_VENDOR)/camera)
 
 PRODUCT_PACKAGES += \
     MiuiCamera \
