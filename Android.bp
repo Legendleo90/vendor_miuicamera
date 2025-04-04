@@ -18,14 +18,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libCameraEffectJNI.so",
+                "proprietary/system/lib64/libCameraEffectJNI.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -37,14 +36,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libarc_layer_sgl.so",
+                "proprietary/system/lib64/libarc_layer_sgl.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -56,14 +54,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libarcsoft_wideselfie.so",
+                "proprietary/system/lib64/libarcsoft_wideselfie.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -75,14 +72,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libcamera_algoup_jni.xiaomi.so",
+                "proprietary/system/lib64/libcamera_algoup_jni.xiaomi.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -94,14 +90,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libcamera_arcsoft_beautyshot.so",
+                "proprietary/system/lib64/libcamera_arcsoft_beautyshot.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -113,14 +108,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libcamera_arcsoft_handgesture.so",
+                "proprietary/system/lib64/libcamera_arcsoft_handgesture.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -132,14 +126,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libcamera_beauty_mpbase.so",
+                "proprietary/system/lib64/libcamera_beauty_mpbase.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -151,14 +144,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libcamera_handgesture_mpbase.so",
+                "proprietary/system/lib64/libcamera_handgesture_mpbase.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -170,14 +162,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libcamera_mianode_jni.xiaomi.so",
+                "proprietary/system/lib64/libcamera_mianode_jni.xiaomi.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -189,14 +180,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libcamera_wideselfie_mpbase.so",
+                "proprietary/system/lib64/libcamera_wideselfie_mpbase.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -208,14 +198,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libcom.xiaomi.camera.requestutil.so",
+                "proprietary/system/lib64/libcom.xiaomi.camera.requestutil.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -227,14 +216,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libdoc_photo.so",
+                "proprietary/system/lib64/libdoc_photo.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -246,14 +234,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libdoc_photo_c++_shared.so",
+                "proprietary/system/lib64/libdoc_photo_c++_shared.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -265,14 +252,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libgallery_arcsoft_dualcam_refocus.so",
+                "proprietary/system/lib64/libgallery_arcsoft_dualcam_refocus.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -284,14 +270,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libgallery_arcsoft_portrait_lighting.so",
+                "proprietary/system/lib64/libgallery_arcsoft_portrait_lighting.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -303,14 +288,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libgallery_arcsoft_portrait_lighting_c.so",
+                "proprietary/system/lib64/libgallery_arcsoft_portrait_lighting_c.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -322,14 +306,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libgallery_mpbase.so",
+                "proprietary/system/lib64/libgallery_mpbase.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -341,14 +324,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libhandengine.arcsoft.so",
+                "proprietary/system/lib64/libhandengine.arcsoft.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -360,14 +342,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libjni_arcsoft_beautyshot.so",
+                "proprietary/system/lib64/libjni_arcsoft_beautyshot.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -379,14 +360,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libjni_jpegutil_xiaomi.so",
+                "proprietary/system/lib64/libjni_jpegutil_xiaomi.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -398,14 +378,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libjni_wideselfie.so",
+                "proprietary/system/lib64/libjni_wideselfie.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -417,14 +396,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libmibokeh_gallery.so",
+                "proprietary/system/lib64/libmibokeh_gallery.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -436,14 +414,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libmisr.so",
+                "proprietary/system/lib64/libmisr.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -455,14 +432,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libmorpho_memory_allocator.so",
+                "proprietary/system/lib64/libmorpho_memory_allocator.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -474,14 +450,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libmorpho_panorama_gp3.so",
+                "proprietary/system/lib64/libmorpho_panorama_gp3.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -493,14 +468,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libmorpho_sensor_fusion.so",
+                "proprietary/system/lib64/libmorpho_sensor_fusion.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -512,14 +486,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libmotion_photo.so",
+                "proprietary/system/lib64/libmotion_photo.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -531,14 +504,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libmotion_photo_c++_shared.so",
+                "proprietary/system/lib64/libmotion_photo_c++_shared.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -550,14 +522,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libmotion_photo_mace.so",
+                "proprietary/system/lib64/libmotion_photo_mace.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -569,14 +540,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/librefocus.so",
+                "proprietary/system/lib64/librefocus.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -588,14 +558,13 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/librefocus_mibokeh.so",
+                "proprietary/system/lib64/librefocus_mibokeh.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -607,20 +576,19 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libselection.so",
+                "proprietary/system/lib64/libselection.so",
             ],
         },
     },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    soc_specific: true,
 }
 
 android_app_import {
     name: "MiuiCamera",
     owner: "xiaomi",
-    apk: "proprietary/product/priv-app/MiuiCamera/MiuiCamera.apk",
+    apk: "proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk",
     overrides: [
         "Camera2",
         "GCamGOPrebuilt",
@@ -631,241 +599,207 @@ android_app_import {
         enabled: false,
     },
     privileged: true,
-    product_specific: true,
 }
 
 android_app_import {
     name: "MiuiExtraPhoto",
     owner: "xiaomi",
-    apk: "proprietary/product/priv-app/MiuiExtraPhoto/MiuiExtraPhoto.apk",
+    apk: "proprietary/system/priv-app/MiuiExtraPhoto/MiuiExtraPhoto.apk",
     certificate: "platform",
     dex_preopt: {
         enabled: false,
     },
     privileged: true,
-    product_specific: true,
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libCameraEffectJNI_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libCameraEffectJNI_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so",
-    symlink_target: "/vendor/lib64/libCameraEffectJNI.so",
+    symlink_target: "/system/lib64/libCameraEffectJNI.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libarc_layer_sgl_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libarc_layer_sgl_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libarc_layer_sgl.so",
-    symlink_target: "/vendor/lib64/libarc_layer_sgl.so",
+    symlink_target: "/system/lib64/libarc_layer_sgl.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libarcsoft_wideselfie_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libarcsoft_wideselfie_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libarcsoft_wideselfie.so",
-    symlink_target: "/vendor/lib64/libarcsoft_wideselfie.so",
+    symlink_target: "/system/lib64/libarcsoft_wideselfie.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libcamera_algoup_jni_xiaomi_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libcamera_algoup_jni_xiaomi_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libcamera_algoup_jni.xiaomi.so",
-    symlink_target: "/vendor/lib64/libcamera_algoup_jni.xiaomi.so",
+    symlink_target: "/system/lib64/libcamera_algoup_jni.xiaomi.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libcamera_arcsoft_beautyshot_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libcamera_arcsoft_beautyshot_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libcamera_arcsoft_beautyshot.so",
-    symlink_target: "/vendor/lib64/libcamera_arcsoft_beautyshot.so",
+    symlink_target: "/system/lib64/libcamera_arcsoft_beautyshot.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libcamera_arcsoft_handgesture_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libcamera_arcsoft_handgesture_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libcamera_arcsoft_handgesture.so",
-    symlink_target: "/vendor/lib64/libcamera_arcsoft_handgesture.so",
+    symlink_target: "/system/lib64/libcamera_arcsoft_handgesture.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libcamera_beauty_mpbase_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libcamera_beauty_mpbase_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libcamera_beauty_mpbase.so",
-    symlink_target: "/vendor/lib64/libcamera_beauty_mpbase.so",
+    symlink_target: "/system/lib64/libcamera_beauty_mpbase.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libcamera_handgesture_mpbase_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libcamera_handgesture_mpbase_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libcamera_handgesture_mpbase.so",
-    symlink_target: "/vendor/lib64/libcamera_handgesture_mpbase.so",
+    symlink_target: "/system/lib64/libcamera_handgesture_mpbase.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libcamera_mianode_jni_xiaomi_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libcamera_mianode_jni_xiaomi_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libcamera_mianode_jni.xiaomi.so",
-    symlink_target: "/vendor/lib64/libcamera_mianode_jni.xiaomi.so",
+    symlink_target: "/system/lib64/libcamera_mianode_jni.xiaomi.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libcamera_wideselfie_mpbase_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libcamera_wideselfie_mpbase_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libcamera_wideselfie_mpbase.so",
-    symlink_target: "/vendor/lib64/libcamera_wideselfie_mpbase.so",
+    symlink_target: "/system/lib64/libcamera_wideselfie_mpbase.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libcom_xiaomi_camera_requestutil_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libcom_xiaomi_camera_requestutil_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libcom.xiaomi.camera.requestutil.so",
-    symlink_target: "/vendor/lib64/libcom.xiaomi.camera.requestutil.so",
+    symlink_target: "/system/lib64/libcom.xiaomi.camera.requestutil.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiExtraPhoto_lib_arm64_libdoc_photo_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiExtraPhoto_lib_arm64_libdoc_photo_so",
     installed_location: "priv-app/MiuiExtraPhoto/lib/arm64/libdoc_photo.so",
-    symlink_target: "/vendor/lib64/libdoc_photo.so",
+    symlink_target: "/system/lib64/libdoc_photo.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiExtraPhoto_lib_arm64_libdoc_photo_c++_shared_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiExtraPhoto_lib_arm64_libdoc_photo_c++_shared_so",
     installed_location: "priv-app/MiuiExtraPhoto/lib/arm64/libdoc_photo_c++_shared.so",
-    symlink_target: "/vendor/lib64/libdoc_photo_c++_shared.so",
+    symlink_target: "/system/lib64/libdoc_photo_c++_shared.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiExtraPhoto_lib_arm64_libgallery_arcsoft_dualcam_refocus_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiExtraPhoto_lib_arm64_libgallery_arcsoft_dualcam_refocus_so",
     installed_location: "priv-app/MiuiExtraPhoto/lib/arm64/libgallery_arcsoft_dualcam_refocus.so",
-    symlink_target: "/vendor/lib64/libgallery_arcsoft_dualcam_refocus.so",
+    symlink_target: "/system/lib64/libgallery_arcsoft_dualcam_refocus.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiExtraPhoto_lib_arm64_libgallery_arcsoft_portrait_lighting_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiExtraPhoto_lib_arm64_libgallery_arcsoft_portrait_lighting_so",
     installed_location: "priv-app/MiuiExtraPhoto/lib/arm64/libgallery_arcsoft_portrait_lighting.so",
-    symlink_target: "/vendor/lib64/libgallery_arcsoft_portrait_lighting.so",
+    symlink_target: "/system/lib64/libgallery_arcsoft_portrait_lighting.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiExtraPhoto_lib_arm64_libgallery_arcsoft_portrait_lighting_c_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiExtraPhoto_lib_arm64_libgallery_arcsoft_portrait_lighting_c_so",
     installed_location: "priv-app/MiuiExtraPhoto/lib/arm64/libgallery_arcsoft_portrait_lighting_c.so",
-    symlink_target: "/vendor/lib64/libgallery_arcsoft_portrait_lighting_c.so",
+    symlink_target: "/system/lib64/libgallery_arcsoft_portrait_lighting_c.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiExtraPhoto_lib_arm64_libgallery_mpbase_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiExtraPhoto_lib_arm64_libgallery_mpbase_so",
     installed_location: "priv-app/MiuiExtraPhoto/lib/arm64/libgallery_mpbase.so",
-    symlink_target: "/vendor/lib64/libgallery_mpbase.so",
+    symlink_target: "/system/lib64/libgallery_mpbase.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libhandengine_arcsoft_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libhandengine_arcsoft_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libhandengine.arcsoft.so",
-    symlink_target: "/vendor/lib64/libhandengine.arcsoft.so",
+    symlink_target: "/system/lib64/libhandengine.arcsoft.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libjni_arcsoft_beautyshot_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libjni_arcsoft_beautyshot_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libjni_arcsoft_beautyshot.so",
-    symlink_target: "/vendor/lib64/libjni_arcsoft_beautyshot.so",
+    symlink_target: "/system/lib64/libjni_arcsoft_beautyshot.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libjni_jpegutil_xiaomi_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libjni_jpegutil_xiaomi_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libjni_jpegutil_xiaomi.so",
-    symlink_target: "/vendor/lib64/libjni_jpegutil_xiaomi.so",
+    symlink_target: "/system/lib64/libjni_jpegutil_xiaomi.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libjni_wideselfie_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libjni_wideselfie_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libjni_wideselfie.so",
-    symlink_target: "/vendor/lib64/libjni_wideselfie.so",
+    symlink_target: "/system/lib64/libjni_wideselfie.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiExtraPhoto_lib_arm64_libmibokeh_gallery_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiExtraPhoto_lib_arm64_libmibokeh_gallery_so",
     installed_location: "priv-app/MiuiExtraPhoto/lib/arm64/libmibokeh_gallery.so",
-    symlink_target: "/vendor/lib64/libmibokeh_gallery.so",
+    symlink_target: "/system/lib64/libmibokeh_gallery.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiExtraPhoto_lib_arm64_libmisr_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiExtraPhoto_lib_arm64_libmisr_so",
     installed_location: "priv-app/MiuiExtraPhoto/lib/arm64/libmisr.so",
-    symlink_target: "/vendor/lib64/libmisr.so",
+    symlink_target: "/system/lib64/libmisr.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libmorpho_memory_allocator_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libmorpho_memory_allocator_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libmorpho_memory_allocator.so",
-    symlink_target: "/vendor/lib64/libmorpho_memory_allocator.so",
+    symlink_target: "/system/lib64/libmorpho_memory_allocator.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libmorpho_panorama_gp3_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libmorpho_panorama_gp3_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libmorpho_panorama_gp3.so",
-    symlink_target: "/vendor/lib64/libmorpho_panorama_gp3.so",
+    symlink_target: "/system/lib64/libmorpho_panorama_gp3.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiCamera_lib_arm64_libmorpho_sensor_fusion_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiCamera_lib_arm64_libmorpho_sensor_fusion_so",
     installed_location: "priv-app/MiuiCamera/lib/arm64/libmorpho_sensor_fusion.so",
-    symlink_target: "/vendor/lib64/libmorpho_sensor_fusion.so",
+    symlink_target: "/system/lib64/libmorpho_sensor_fusion.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiExtraPhoto_lib_arm64_libmotion_photo_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiExtraPhoto_lib_arm64_libmotion_photo_so",
     installed_location: "priv-app/MiuiExtraPhoto/lib/arm64/libmotion_photo.so",
-    symlink_target: "/vendor/lib64/libmotion_photo.so",
+    symlink_target: "/system/lib64/libmotion_photo.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiExtraPhoto_lib_arm64_libmotion_photo_c++_shared_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiExtraPhoto_lib_arm64_libmotion_photo_c++_shared_so",
     installed_location: "priv-app/MiuiExtraPhoto/lib/arm64/libmotion_photo_c++_shared.so",
-    symlink_target: "/vendor/lib64/libmotion_photo_c++_shared.so",
+    symlink_target: "/system/lib64/libmotion_photo_c++_shared.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiExtraPhoto_lib_arm64_libmotion_photo_mace_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiExtraPhoto_lib_arm64_libmotion_photo_mace_so",
     installed_location: "priv-app/MiuiExtraPhoto/lib/arm64/libmotion_photo_mace.so",
-    symlink_target: "/vendor/lib64/libmotion_photo_mace.so",
+    symlink_target: "/system/lib64/libmotion_photo_mace.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiExtraPhoto_lib_arm64_librefocus_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiExtraPhoto_lib_arm64_librefocus_so",
     installed_location: "priv-app/MiuiExtraPhoto/lib/arm64/librefocus.so",
-    symlink_target: "/vendor/lib64/librefocus.so",
+    symlink_target: "/system/lib64/librefocus.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiExtraPhoto_lib_arm64_librefocus_mibokeh_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiExtraPhoto_lib_arm64_librefocus_mibokeh_so",
     installed_location: "priv-app/MiuiExtraPhoto/lib/arm64/librefocus_mibokeh.so",
-    symlink_target: "/vendor/lib64/librefocus_mibokeh.so",
+    symlink_target: "/system/lib64/librefocus_mibokeh.so",
 }
 
 install_symlink {
-    name: "product_priv-app_MiuiExtraPhoto_lib_arm64_libselection_so",
-    product_specific: true,
+    name: "system_priv-app_MiuiExtraPhoto_lib_arm64_libselection_so",
     installed_location: "priv-app/MiuiExtraPhoto/lib/arm64/libselection.so",
-    symlink_target: "/vendor/lib64/libselection.so",
+    symlink_target: "/system/lib64/libselection.so",
 }
